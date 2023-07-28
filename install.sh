@@ -3,6 +3,7 @@ if [[ ! -d "$HOME/.themes" ]]; then
                 mkdir -p "$HOME/.themes"
  fi
 cp ./Windows-10 -r ~/.themes -r
+tar -xvf ./Windows-10-Icons.tar.gz
 cp ./Windows-10-Icons ~/.local/share/icons -r
 echo "You should enter your password to install wallpaper and menu button icon"
 sudo cp ~/.themes/Windows-10/wallpaper.jpg /usr/share/backgrounds -r
