@@ -1,5 +1,7 @@
 #!/bin/bash
-mkdir ~/.themes ~/.local/share/icons
+if [[ ! -d "$HOME/.themes" ]]; then
+                mkdir -p "$HOME/.themes"
+ fi
 cp ./Windows-10 -r ~/.themes -r
 cp ./We10X We10X-dark ~/.local/share/icons -r
 echo "You should enter your password to install wallpaper and menu button icon"
