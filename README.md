@@ -1,9 +1,9 @@
 # arch-undercover
  a script like kali-undercover for arch-linux that changes xfce theme to a windows10-like theme
-## This is a script like kali-undercover for arch-linux
 
-You must run it in xfce4 desktop environment and xfwm4 window manager
-
+*This is a script like kali-undercover for arch-linux
+*You must run it in xfce4 desktop environment and xfwm4 window manager
+*icon theme:https://github.com/yeyushengfan258/We10X-icon-theme
 ## Usage:
 
 1. Installation
