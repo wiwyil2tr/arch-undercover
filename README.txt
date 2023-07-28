@@ -1,4 +1,4 @@
-这是一个类似于Arch Linux上Kali Undercover的脚本。
+这是一个类似于Kali Undercover的脚本,用于archlinux.
 您必须在xfce4桌面环境和xfwm4窗口管理器中运行它。
 用法：
 1. 安装
